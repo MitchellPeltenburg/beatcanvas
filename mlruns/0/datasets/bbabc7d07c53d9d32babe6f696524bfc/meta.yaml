@@ -1,0 +1,10 @@
+digest: ca4db283
+name: dataset
+profile: '{"features_cardinality": 18}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"name\": \"0\", \"type\": \"tensor\",
+  \"tensor-spec\": {\"dtype\": \"float32\", \"shape\": [-1, 124, 129, 1]}}, {\"name\":
+  \"1\", \"type\": \"tensor\", \"tensor-spec\": {\"dtype\": \"int32\", \"shape\":
+  [-1]}}]", "targets": null}}'
+source: '{"tags": {"mlflow.user": "Mitch", "mlflow.source.name": "C:/Users/mitch/OneDrive/School/DC/Year
+  4/Sem 2/CAPR/model_sample.py", "mlflow.source.type": "LOCAL"}}'
+source_type: code

@@ -1,0 +1,35 @@
+{% extends "master.html" %}
+
+{% block title %}
+Beat Canvas
+{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      <h2 class="mb-4 text-center">Drum Track Transcription</h2>
+      <form method="post" enctype="multipart/form-data" class="mb-3" id="file-upload-form">
+        {% csrf_token %}
+        <div class="mb-3">
+          <label for="InputFile" class="form-label">File input</label>
+          <input type="file" class="form-control" name="audio_file" id="InputFile" accept=".wav">
+          <div id="fileHelp" class="form-text">Choose an isolated drum track to transcribe!</div>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div>
+        <audio controls>
+          <source src="media/output.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+        </div>
+      </form>
+      <div align="left">
+        <img alt="Image Goes Here" src="media/output-1.png" height="100%" width="100%" />
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

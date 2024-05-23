@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/mitch/OneDrive/School/DC/Year%204/Sem%202/CAPR/mlruns/0/4a4d9e833c364b8c9a39438e95d7d8e9/artifacts
+end_time: 1707847773210
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4a4d9e833c364b8c9a39438e95d7d8e9
+run_name: powerful-conch-327
+run_uuid: 4a4d9e833c364b8c9a39438e95d7d8e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707847761921
+status: 4
+tags: []
+user_id: Mitch
